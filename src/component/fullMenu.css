@@ -1,0 +1,70 @@
+.jumbotron{
+    height: 30vh;
+}
+.pointer{
+    cursor: pointer;
+}
+@media screen and (min-width: 830px) {
+    .entree{
+        background-image: url('./chickenFriedSteak.jpg');
+        background-size: cover;
+        background-position-y: -220px;
+    }
+    .app{
+        background-image: url('./app.jpeg');
+        background-size: cover;
+        background-position-y: -260px;
+    }
+    .kid{
+        background-image: url('./kids.jpg');
+        background-size: cover;
+        background-position-y: -260px;
+    }
+    .salad{
+        background-image: url('./cobbSalad.jpg');
+        background-size: cover;
+        background-position-y: -220px;
+    }
+    .special{
+        background-image: url('./turkey.jpeg');
+        background-size: cover;
+        background-position-y: -400px;
+    }
+    .dessert{
+        background-image: url('./dessert.jpg');
+        background-size: cover;
+        background-position-y: -220px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .entree{
+        background-image: url('./chickenFriedSteak.jpg');
+        background-size: cover;
+
+    }
+    .app{
+        background-image: url('./app.jpeg');
+        background-size: cover;
+
+    }
+    .kid{
+        background-image: url('./kids.jpg');
+        background-size: cover;
+
+    }
+    .salad{
+        background-image: url('./cobbSalad.jpg');
+        background-size: cover;
+
+    }
+    .special{
+        background-image: url('./turkey.jpeg');
+        background-size: cover;
+
+    }
+    .dessert{
+        background-image: url('./dessert.jpg');
+        background-size: cover;
+
+    }
+}
